@@ -69,7 +69,12 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="max-w-6xl mx-auto px-4 py-10">
+      <nav className="bg-white border-b border-gray-200">
+        <div className="max-w-4xl mx-auto px-4 py-4 flex items-center gap-2">
+          <span className="text-lg font-semibold text-gray-900">Bias Detector</span>
+        </div>
+      </nav>
+      <div className="max-w-4xl mx-auto px-4 py-8">
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-900">Job Listing Bias Detector</h1>
           <p className="text-gray-500 mt-1">Identify language that may discourage qualified candidates from applying</p>
